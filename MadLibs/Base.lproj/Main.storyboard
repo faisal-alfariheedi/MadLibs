@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4eq-ZE-xEG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4eq-ZE-xEG">
                                 <rect key="frame" x="10" y="398" width="394" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="4dP-75-KmY"/>
@@ -38,7 +38,7 @@
                     <navigationItem key="navigationItem" title="home" id="CC6-qI-bm3">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="rgZ-Wl-37g">
                             <connections>
-                                <segue destination="Ivs-og-J1X" kind="showDetail" identifier="" id="GFg-Wj-TCj"/>
+                                <segue destination="Ivs-og-J1X" kind="presentation" id="TBe-h0-2fs"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
